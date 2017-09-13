@@ -1,0 +1,62 @@
+body{
+	width: 60%;
+	margin-left: 20%;
+	font-family: verdana;
+	text-align: center;
+
+}
+
+img{
+	width: 100%;
+	height: 100%;
+
+}
+
+#logo{
+	width: 30%;
+}
+
+#cabecera{
+	padding-top: 2rem;
+	display: inline-flex;
+}
+
+h1, h2{
+	padding-left: 2rem;
+	color: #1995B3;
+}
+
+#recua{
+	color: white;
+	background-color:  #A2C619;
+}
+
+fieldset{
+	border: 1px #A2C619 solid;
+}
+
+#btn1, #btn2, #btn3, #btn4{
+	background-color: #A2C619;
+	color: white;
+
+}
+
+#miCod, #miNom, #miNota{
+	width: 60%;
+}
+
+#tabla{
+	width: 100%;
+	border: 1px #1995B3 solid;
+
+}
+
+td, th{
+	border: 1px #1995B3 solid;
+}
+
+#btnR, #btnE{
+	width: 100%;
+	background-color: #1995B3;
+	color: white;
+}

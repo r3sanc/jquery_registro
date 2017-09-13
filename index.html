@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" content="text/html" http-equiv="Content-Type">
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<link type="text/css" rel="stylesheet" href="css/estilo.css">
+	<script type="text/javascript">
+	</script>
+<title>Registro de Estudiantes</title>
+
+	<div id="cabecera">
+		<img id="logo" src="img/logobom.jpg">
+		<h1>Registro de Estudiante</h1>		
+	</div>
+</head>
+<body>
+	<div id="contenedorformulario">
+		<form id="miForm" method="get" action="">
+			<fieldset id="mifield">
+				<legend id="recua">Por favor, ingrese sus datos en el siguiente formulario</legend>	
+					<br>
+					<label>Codigo:</label>
+					<br>
+					<input type="text" id="miCod" name="cod" required>
+					<br>
+					<br>
+
+					<label>Nombres:</label>
+					<br>
+					<input type="text" id="miNom" for="miNom" name="miNom" required aria-required="true">
+					<br>
+					<br>
+					
+					<label>Nota:</label>
+					<br>
+					<input type="text" id="miNota" required>
+					<br>
+					<br>
+									
+					
+					
+					
+
+					<input id="btn1" class="submit" type="submit" value="Registrar Alumnos">
+					<button id="btn2">Mostrar Promedio</button>
+					<button id="btn3">Mostrar Nota Mayor</button>
+					<button id="btn4">Mostrar Nota mas baja</button>
+			</fieldset>										
+		</form>
+	</div>	
+	<br>
+	<br>
+	<div id="cont1">
+		<h2 id="h2">Listado de Estudiantes</h2>
+	</div>	
+	<div id="miTabla" align="center">		
+		<p id="p1"></p>
+ 		<br> 					
+	</div>
+</body>
+</html>
